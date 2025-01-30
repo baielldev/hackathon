@@ -53,6 +53,7 @@
     flex-direction: column;
     /* flex-wrap: wrap; */
     justify-content: center;
+    align-items: center;
   }
 
   .home {
@@ -85,11 +86,9 @@
   }
   .footer-nav {
     max-width: 930px;
-    justify-content: space-between;
   }
   .footer {
     flex-direction: column;
-    /* justify-content: space-between; */
   }
 }
 @media (max-width: 775px) {
@@ -116,7 +115,43 @@
     font-size: 15px;
   }
 }
-
+@media (max-width: 643px) {
+  .email-input input {
+    padding: 18px 130px;
+  }
+  .footer-start img {
+    max-width: 100px;
+  }
+}
+@media (max-width: 563px) {
+  .email h1 {
+    font-size: 24px;
+  }
+  .email p {
+    font-size: 11px;
+  }
+}
+@media (max-width: 515px) {
+  .email-input input {
+    padding: 18px 109px;
+  }
+}
+@media (max-width: 501px) {
+  .email-input input {
+    padding: 18px 109px;
+  }
+  @media (max-width: 515px) {
+    .email h1 {
+      font-size: 19px;
+    }
+    .contract img {
+      max-width: 317px;
+    }
+    .contract-text p {
+      font-size: 13px;
+    }
+  }
+}
 @media (max-width: 470px) {
   .contract-title h1 {
     font-size: 28px;
@@ -124,7 +159,25 @@
   .contract img {
     max-width: 356px;
   }
+  .footer-image3 {
+    padding: 16px 16px;
+  }
+  .footer-image1 {
+    padding: 16px 16px;
+  }
+  .footer-image2 {
+    padding: 16px 16px;
+  }
+  .email-input input {
+    padding: 18px 93px;
+  }
 }
+@media (max-width: 434px) {
+  .email-input input {
+    padding: 18px 77px;
+  }
+}
+
 @media (max-width: 443px) {
   .contract-title h1 {
     font-size: 16px;
