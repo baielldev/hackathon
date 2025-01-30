@@ -1,0 +1,138 @@
+@media (max-width: 1200px) {
+  .burger {
+    display: flex;
+  }
+  nav {
+    display: none;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media (max-width: 1150px) {
+  .home {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .cities {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .food {
+    flex-direction: column-reverse;
+  }
+  .foood-text h1 {
+    font-size: 32px;
+  }
+  .burger-box {
+    flex-direction: column;
+  }
+
+  .container {
+    padding-inline: 20px;
+  }
+
+  .service {
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (max-width: 500px) {
+  .home h1 {
+    font-size: 32px;
+  }
+  .home-buttom .buttom {
+    padding: 10px 20px;
+  }
+  .box {
+    flex-wrap: wrap;
+  }
+  .service {
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+  }
+
+  .home {
+    gap: 0;
+  }
+}
+@media (max-width: 1150px) {
+  .contract {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 958px) {
+  .email-input input {
+    padding: 20px 331px;
+  }
+}
+.email-input input {
+  padding: 20px 253px;
+}
+
+@media (max-width: 907px) {
+  .email-input input {
+    padding: 20px 291px;
+  }
+}
+@media (max-width: 837px) {
+  .email-input input {
+    padding: 20px 254px;
+  }
+  .footer-nav {
+    max-width: 930px;
+    justify-content: space-between;
+  }
+  .footer {
+    flex-direction: column;
+    /* justify-content: space-between; */
+  }
+}
+@media (max-width: 775px) {
+  .email-input input {
+    padding: 20px 202px;
+  }
+}
+@media (max-width: 754px) {
+  .email p {
+    font-size: 13px;
+  }
+  .email h1 {
+    font-size: 28px;
+  }
+}
+@media (max-width: 683px) {
+  .email-input input {
+    padding: 18px 183px;
+  }
+  .contract img {
+    max-width: 383px;
+  }
+  .contract-text p {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 470px) {
+  .contract-title h1 {
+    font-size: 28px;
+  }
+  .contract img {
+    max-width: 356px;
+  }
+}
+@media (max-width: 443px) {
+  .contract-title h1 {
+    font-size: 16px;
+  }
+  .contract-text {
+    gap: 13px;
+  }
+  .contract-title {
+    padding-block: 7px;
+  }
+}
